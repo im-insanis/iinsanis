@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5B2C2"
+    android:padding="20dp"
+    tools:context=".MainActivity_01">
+
+
+    <Button
+        android:id="@+id/findpan"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:background="@drawable/edgeffffff"
+        android:backgroundTint="#FFFFFF"
+        android:bottomLeftRadius="100dp"
+        android:padding="20dp"
+        android:text="판매대 찾기"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:fontFamily="@font/jua"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.14999998" />
+
+    <Button
+        android:id="@+id/findpro"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:background="@drawable/edgeff60a3"
+        android:bottomLeftRadius="100dp"
+        android:padding="20dp"
+        android:text="물품 찾기"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:fontFamily="@font/jua"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="330dp"
+        android:layout_height="150dp"
+        android:background="@drawable/edgeff006b"
+        android:backgroundTint="#ff006b"
+        android:elevation="10dp"
+        android:text="도움말"
+        android:textColor="#000000"
+        android:textSize="50sp"
+        android:fontFamily="@font/jua"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+</androidx.constraintlayout.widget.ConstraintLayout>

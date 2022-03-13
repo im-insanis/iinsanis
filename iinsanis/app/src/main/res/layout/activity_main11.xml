@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5B2C2"
+    tools:context=".MainActivity_11">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/jua"
+        android:text="장바구니"
+        android:textColor="#000000"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.021" />
+
+    <TextView
+        android:id="@+id/cart"
+        android:layout_width="292dp"
+        android:layout_height="335dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="292dp"
+        android:background="@drawable/textviewbox"
+        android:fontFamily="@font/jua"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView01"
+        android:layout_width="317dp"
+        android:layout_height="10dp"
+        android:background="#000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.622"
+        app:srcCompat="@android:drawable/dark_header" />
+
+    <TextView
+        android:id="@+id/finalprice"
+        android:layout_width="360dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:fontFamily="@font/jua"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#000000"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <Button
+        android:id="@+id/cancle"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/edge36bcb4"
+        android:backgroundTint="#36BCB4"
+        android:fontFamily="@font/jua"
+        android:text="확인"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/payment"
+        android:layout_width="140dp"
+        android:layout_height="130dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/edgeff4163"
+        android:backgroundTint="#FF4163"
+        android:fontFamily="@font/jua"
+        android:text="결제"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cancle"
+        app:layout_constraintVertical_bias="0.25" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

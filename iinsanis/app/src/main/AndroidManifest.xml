@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.app.iinsanis">
+
+    <uses-feature android:name="android.hardware.nfc" android:required="false" />
+
+    <uses-permission android:name="android.permission.NFC" />
+    <application
+        android:name=".staticnumber"
+        android:allowBackup="true"
+        android:icon="@mipmap/iseeicon"
+        android:roundIcon="@mipmap/iseeicon_round"
+        android:label="iSee"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity
+            android:name=".MainActivity_01"
+            android:noHistory="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.nfc.action.TAG_DISCOVERED"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+                <data android:mimeType="text/plain"/>
+                <action android:name="android.nfc.action.TECH_DISCOVERED"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity_02"></activity>
+        <activity android:name=".MainActivity_03"></activity>
+        <activity android:name=".MainActivity_04"></activity>
+        <activity android:name=".MainActivity_05"></activity>
+        <activity android:name=".MainActivity_06"></activity>
+        <activity android:name=".MainActivity_07"></activity>
+        <activity android:name=".MainActivity_08"></activity>
+        <activity android:name=".MainActivity_10"></activity>
+        <activity android:name=".MainActivity_11"></activity>
+        <activity android:name=".MainActivity_12"></activity>
+        <activity android:name=".MainActivity_13"></activity>
+        <activity android:name=".MainActivity_14"></activity>
+        <activity android:name=".MainActivity_15"></activity>
+
+
+    </application>
+
+    <queries>
+        <package android:name="com.google.android.googlequicksearchbox"/>
+    </queries>
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+
+
+</manifest>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5B2C2"
+    tools:context=".MainActivity_02">
+
+
+    <Button
+        android:id="@+id/exit2"
+        android:layout_width="220dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/edgeff60a3"
+        android:fontFamily="@font/jua"
+        android:text="뒤로가기"
+        android:textColor="#000000"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FFFFFF"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="80dp">
+
+            <Button
+                android:id="@+id/instant_btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/edgeff006b"
+                android:fontFamily="@font/jua"
+                android:text="즉석식품"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/snack_btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/edgeff006b"
+                android:fontFamily="@font/jua"
+                android:text="과자"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/ramen_btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/edgeff006b"
+                android:fontFamily="@font/jua"
+                android:text="라면"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#EDF2DC">
+
+            <Button
+                android:id="@+id/beverage_btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/edgeff006b"
+                android:fontFamily="@font/jua"
+                android:text="음료"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/icecream_btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/edgeff006b"
+                android:fontFamily="@font/jua"
+                android:text="아이스크림"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/medicine_btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/edgeff006b"
+                android:fontFamily="@font/jua"
+                android:text="의약외품"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp">
+
+            <Button
+                android:id="@+id/fried_btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/edgeff006b"
+                android:fontFamily="@font/jua"
+                android:text="튀김"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/goods_btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/edgeff006b"
+                android:fontFamily="@font/jua"
+                android:text="잡화"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/bread_btn"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="8dp"
+                android:background="@drawable/edgeff006b"
+                android:fontFamily="@font/jua"
+                android:text="빵"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

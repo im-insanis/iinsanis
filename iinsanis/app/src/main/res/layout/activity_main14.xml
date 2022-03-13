@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5B2C2"
+    android:padding="20dp"
+    tools:context=".MainActivity_14">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="20dp">
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/jua"
+            android:text="1. 판매대 위치 버튼을 누른 후 원하시는 상품 카테고리 버튼을 누르면 해당 판매대까지의 거리를 알 수 있습니다.
+    \n\n2. 물품 찾기 버튼을 누른 후 판매대에 부착된 상품 별 nfc 스티커를 태그하면 해당 상품의 가격과 행사정보를 알 수 있습니다. 태그 반복시\n
+       상품 정보가 업데이트 됩니다.
+    \n\n3. 구매하실 상품의 개수를 선택한 후 장바구니에 담게되면 최종 결제 금액을 확인할 수 있습니다."
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textSize="28sp" />
+
+        <Button
+            android:id="@+id/before"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/edgeff006b"
+            android:fontFamily="@font/jua"
+            android:gravity="center"
+            android:scaleType="fitCenter"
+            android:text="확인"
+            android:textColor="#000000"
+            android:textSize="40sp"
+            app:srcCompat="@drawable/back_btn"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
